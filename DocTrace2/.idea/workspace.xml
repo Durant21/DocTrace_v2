@@ -2,472 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ecb0b77-6296-44ac-a1e6-576d67166cb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/DocTrace2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.coveragerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/activate.csh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/activate.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/easy_install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/easy_install-3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/hupper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/mako-render" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/pcreate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/pdistreport" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/pip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/pip3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/pip3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/prequest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/proutes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/pserve" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/pshell" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/ptweens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/pviews" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/pygmentize" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/python3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/bin/waitress-serve" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/DocTrace2.egg-link" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/easy-install.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/easy_install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip-9.0.1.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip-9.0.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip-9.0.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip-9.0.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip-9.0.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip-9.0.1.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip-9.0.1.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip-9.0.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/_vendor/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/basecommand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/baseparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/cmdoptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/completion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/freeze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/hash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/show.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/uninstall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/commands/wheel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/compat/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/compat/dictconfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/locations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/models/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/operations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/operations/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/operations/freeze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/pep425tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/req/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/req/req_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/req/req_install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/req/req_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/req/req_uninstall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/status_codes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/appdirs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/deprecation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/encoding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/filesystem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/glibc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/hashes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/outdated.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/packaging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/setuptools_build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/utils/ui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/vcs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/vcs/bazaar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/vcs/git.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/vcs/mercurial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/vcs/subversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pip/wheel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/markers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/requirements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/_vendor/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/extern/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/pkg_resources/py31compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/packaging/__about__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/packaging/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/packaging/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/packaging/_structures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/packaging/markers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/packaging/requirements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/packaging/specifiers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/packaging/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/packaging/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/pyparsing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/_vendor/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/archive_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/build_meta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/cli-32.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/cli-64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/cli.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/alias.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/bdist_egg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/bdist_rpm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/bdist_wininst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/build_clib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/build_ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/build_py.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/develop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/dist_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/easy_install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/egg_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/install_egg_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/install_lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/install_scripts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/launcher manifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/py36compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/rotate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/saveopts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/sdist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/setopt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/upload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/command/upload_docs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/dep_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/depends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/dist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/extension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/extern/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/glibc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/glob.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/gui-32.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/gui-64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/gui.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/launch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/lib2to3_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/monkey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/msvc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/namespaces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/package_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/pep425tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/py27compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/py31compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/py33compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/py36compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/sandbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/script (dev).tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/script.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/site-patch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/ssl_support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/unicode_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/wheel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/setuptools/windows_support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/connectors/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/connectors/mxodbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/connectors/pyodbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/connectors/zxJDBC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/cprocessors.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/cresultproxy.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/cutils.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/databases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/firebird/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/firebird/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/firebird/fdb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/firebird/kinterbasdb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mssql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mssql/adodbapi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mssql/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mssql/information_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mssql/mxodbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mssql/pymssql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mssql/pyodbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mssql/zxjdbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/cymysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/dml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/enumerated.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/gaerdbms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/mysqlconnector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/mysqldb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/oursql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/pymysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/pyodbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/reflection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/zxjdbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/oracle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/oracle/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/oracle/cx_oracle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/oracle/zxjdbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/dml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/hstore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/pg8000.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/psycopg2cffi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/pygresql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/pypostgresql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/ranges.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/postgresql/zxjdbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sqlite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sqlite/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sqlite/json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sqlite/pysqlcipher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sybase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sybase/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sybase/mxodbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sybase/pyodbc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/dialects/sybase/pysybase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/default.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/interfaces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/reflection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/result.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/strategies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/threadlocal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/engine/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/event/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/event/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/event/attr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/event/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/event/legacy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/event/registry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/events.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/exc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/associationproxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/automap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/baked.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/compiler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/declarative/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/declarative/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/declarative/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/declarative/clsregistry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/horizontal_shard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/hybrid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/indexable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/instrumentation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/mutable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/orderinglist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/ext/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/inspection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/interfaces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/attributes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/dependency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/deprecated_interfaces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/descriptor_props.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/dynamic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/evaluator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/events.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/exc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/identity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/instrumentation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/interfaces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/loading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/mapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/path_registry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/properties.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/query.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/relationships.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/strategies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/strategy_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/sync.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/orm/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/pool/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/pool/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/pool/dbapi_proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/pool/impl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/processors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/annotation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/compiler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/crud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/ddl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/default_comparator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/dml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/elements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/naming.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/selectable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/sqltypes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/type_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/sql/visitors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/assertions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/assertsql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/engines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/entities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/exclusions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/fixtures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/mock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/pickleable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/plugin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/plugin/bootstrap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/plugin/plugin_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/plugin/pytestplugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/profiling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/provision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/replay_fixture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/requirements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_cte.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_ddl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_dialect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_insert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_reflection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_select.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/suite/test_update_delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/testing/warnings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/util/_collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/util/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/util/deprecations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/util/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.6/site-packages/sqlalchemy/util/topological.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/CacheControl-0.11.7-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/appdirs-1.4.3-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/certifi-2018.1.18-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/chardet-3.0.4-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/colorama-0.3.7-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/distlib-0.2.6-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/distro-1.0.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/html5lib-0.999999999-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/idna-2.6-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/ipaddress-0.0.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/lockfile-0.12.2-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/packaging-17.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/pip-9.0.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/pkg_resources-0.0.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/progress-1.2-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/pyparsing-2.2.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/requests-2.18.4-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/retrying-1.3.3-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/six-1.11.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/urllib3-1.22-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/webencodings-0.5-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/share/python-wheels/wheel-0.30.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DocTrace2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3080966d-42b2-4132-89de-22c86b5f6246.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/BLL/Documents.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/BLL/Groups.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/BLL/Sections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/DAL/sql_documents.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/DAL/sql_groups.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/DAL/sql_sections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/call_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/data/_init_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/data/db_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/data/sqlalchemy_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/db/myDocuments.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/db/placeholder.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/static/pyramid-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/static/pyramid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/static/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/404.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/layout.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/main_layout.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/main_template.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/mytemplate.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/views/default.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/views/notfound.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/trace_template.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocTrace2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocTrace2/templates/main_layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/templates/main_layout.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocTrace2/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocTrace2/views/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/views/default.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -508,43 +49,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/data/db_factory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/call_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DocTrace2/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="238">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/routes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -559,22 +70,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_layout.pt">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_template.pt">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="648" column="12" lean-forward="true" selection-start-line="648" selection-start-column="12" selection-end-line="648" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DocTrace2/views/default.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="153">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DocTrace2/views/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3080966d-42b2-4132-89de-22c86b5f6246/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -610,15 +156,12 @@
         <option value="$PROJECT_DIR$/DocTrace2/data/db_factory.py" />
         <option value="$PROJECT_DIR$/DocTrace2/call_data.py" />
         <option value="$PROJECT_DIR$/DocTrace2/templates/main_template.pt" />
+        <option value="$PROJECT_DIR$/DocTrace2/views/__init__.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3080966d-42b2-4132-89de-22c86b5f6246/console.sql" />
+        <option value="$PROJECT_DIR$/DocTrace2/views/default.py" />
         <option value="$PROJECT_DIR$/DocTrace2/__init__.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/DocTrace2/templates/main_layout.pt" />
+        <option value="$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt" />
       </list>
     </option>
   </component>
@@ -692,12 +235,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/DocTrace2/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
   </component>
   <component name="RecentsManager">
@@ -766,21 +311,24 @@
       <updated>1562708968072</updated>
       <workItem from="1562708969453" duration="1800000" />
       <workItem from="1562711036058" duration="691000" />
+      <workItem from="1562711768136" duration="1573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2491000" />
+    <option name="totallyTimeSpent" value="4064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25263157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25540167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -789,7 +337,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.16017316" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24567099" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -802,7 +350,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DocTrace2$DocTrace2.coverage" NAME="DocTrace2 Coverage Results" MODIFIED="1562711533870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DocTrace2$DocTrace2.coverage" NAME="DocTrace2 Coverage Results" MODIFIED="1562714881698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DocTrace2/BLL/Documents.py">
@@ -903,26 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_template.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_layout.pt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/views/default.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/views/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/DocTrace2/views/notfound.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -933,12 +461,61 @@
     <entry file="file://$PROJECT_DIR$/DocTrace2/data/sqlalchemy_base.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/views/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3080966d-42b2-4132-89de-22c86b5f6246/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/views/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DocTrace2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_template.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_template.pt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="648" column="12" lean-forward="true" selection-start-line="648" selection-start-column="12" selection-end-line="648" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

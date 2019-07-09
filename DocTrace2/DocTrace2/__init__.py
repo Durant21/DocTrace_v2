@@ -8,6 +8,8 @@ def main(global_config, **settings):
     with Configurator(settings=settings) as config:
         config.include('pyramid_chameleon')
         config.include('.routes')
+        config.add_route('main','/main')
+        config.add_route('trace','/trace')
         config.scan()
 
         # with Configurator(settings=settings) as config:
