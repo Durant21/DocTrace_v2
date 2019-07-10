@@ -1,0 +1,209 @@
+<!--?<!DOCTYPE html metal:define-macro="layout">-->
+<!--?<html lang="{{request.locale_name}}">-->
+<!--?  <head>-->
+
+
+<!--?  </head>-->
+
+<!--?  <body>body </body>-->
+<!--?</html>-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trace Diagram</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+<!--?   libraries for bootstrap buttons-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!--?libraries for bootstrap text areas -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+        bottom: 10px;
+        position: fixed;
+        width: 100%;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: 100%;
+        padding: 15px;
+      }
+      .row.content {height:100%;}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<!--?        <span class="icon-bar"></span>-->
+<!--?        <span class="icon-bar"></span>-->
+<!--?        <span class="icon-bar"></span>-->
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+<!--?        <li><a href="#">About</a></li>-->
+<!--?        <li><a href="#">Projects</a></li>-->
+<!--?        <li><a href="#">Contact</a></li>-->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-2 sidenav" align="left">
+        <strong><u>Documents</u></strong><br>
+        <strong>doc7</strong><br>
+        <strong>doc11</strong><br>
+        <strong>doc7</strong><br>
+        <strong>doc7</strong><br>
+        <strong>doc8</strong><br>
+        <strong>doc9</strong><br>
+        <strong>doc10</strong><br>
+        <strong>doc12a</strong><br>
+        <strong>doc6</strong><br>
+        <strong>doc14</strong><br>
+        <strong>doc12b</strong><br>
+        <strong>doc1</strong><br>
+        <strong>doc1a</strong><br>
+        <strong>doc1a</strong><br>
+        <strong>doc1b</strong><br>
+<!--?      <p><a href="#">Link</a></p>-->
+<!--?      <p><a href="#">Link</a></p>-->
+<!--?      <p><a href="#">Link</a></p>-->
+    </div>
+    <div class="col-sm-8 text-left">
+      <h1>Documents</h1>
+
+<!-- <br>
+<input id="button1" type="button" value="Change Dimensions"
+            onclick="changeDimensions()"/>
+           -->
+
+
+<div class="container">
+        <button type="button" class="btn">Create Document</button>
+        <!--?  <button type="button" class="btn btn-default">Default</button>-->
+        <!--?  <button type="button" class="btn btn-primary">Primary</button>-->
+        <!--?  <button type="button" class="btn btn-success">Success</button>-->
+        <!--?  <button type="button" class="btn btn-info">Info</button>-->
+        <!--?  <button type="button" class="btn btn-warning">Warning</button>-->
+        <!--?  <button type="button" class="btn btn-danger">Danger</button>-->
+        <!--?  <button type="button" class="btn btn-link">Link</button>-->
+</div>
+
+<script>
+    myList =''
+    function changeDimensions() {
+        document.getElementById("rect1").setAttribute("width", "100");
+    }
+</script>
+<div class="container">
+<!--?  <h2>Form control: textarea</h2>-->
+<!--?  <p>The form below contains a textarea for comments:</p>-->
+  <form>
+    <div class="form-group">
+      <label for="comment">Content:</label>
+      <textarea class="form-control" rows="5" id="comment">Header information....</textarea>
+        <button type="button" class="btn btn-warning">Edit</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+    </div>
+
+      <div class="form-group">
+      <label for="comment">Content:</label>
+      <textarea class="form-control" rows="5" id="comment">paragraph 1 ....</textarea>
+        <button type="button" class="btn btn-warning">Edit</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+    </div>
+
+        <div class="form-group">
+      <label for="comment">Content:</label>
+      <textarea class="form-control" rows="5" id="comment">paragraph 2 ....</textarea>
+        <button type="button" class="btn btn-warning">Edit</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+    </div>
+
+        <div class="form-group">
+      <label for="comment">Content:</label>
+      <textarea class="form-control" rows="5" id="comment">footer information ....</textarea>
+        <button type="button" class="btn btn-warning">Edit</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+    </div>
+  </form>
+</div>
+
+
+
+        <hr>
+    </div>
+    <div class="col-sm-2 sidenav">
+<!--?      <div class="well">-->
+<!--?        <p>ADS</p>-->
+<!--?      </div>-->
+<!--?      <div class="well">-->
+<!--?        <p>ADS</p>-->
+<!--?      </div>-->
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+
+
+
+
+</html>

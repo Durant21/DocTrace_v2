@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ecb0b77-6296-44ac-a1e6-576d67166cb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/trace_template.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/document_layout.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/document_template.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/uuu_layout.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DocTrace2/templates/uuu_template.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DocTrace2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocTrace2/templates/layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/templates/orig_layout.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DocTrace2/templates/main_layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/templates/main_layout.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DocTrace2/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocTrace2/templates/mytemplate.pt" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/templates/orig_template.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocTrace2/templates/trace_template.pt" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/templates/trace_template.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DocTrace2/views/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/DocTrace2/views/default.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,16 +48,60 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="myDocuments" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Document_Parent: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="myDocuments" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Documents: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="myDocuments" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Groups: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="myDocuments" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Section_History: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="myDocuments" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Sections: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/uuu_template.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DocTrace2/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="204">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -61,37 +110,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_template.pt">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_template.pt">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/orig_layout.pt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_layout.pt">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/orig_template.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="648" column="12" lean-forward="true" selection-start-line="648" selection-start-column="12" selection-end-line="648" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -99,45 +135,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DocTrace2/views/default.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/views/__init__.py">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/document_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="118" column="33" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/3080966d-42b2-4132-89de-22c86b5f6246.SCHEMA:main">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>3080966d-42b2-4132-89de-22c86b5f6246.SCHEMA:main</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Section_History</node>
+                <node x="0.0" y="385.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Documents</node>
+                <node x="230.0" y="385.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.table_name</node>
+                <node x="0.0" y="506.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.sqlite_sequence</node>
+                <node x="0.0" y="193.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.sqlite_master</node>
+                <node x="411.0" y="193.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Sections</node>
+                <node x="179.0" y="193.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Document_Parent</node>
+                <node x="230.0" y="0.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Groups</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="284.5" y="259.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="197" column="26" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocTrace2/templates/document_template.pt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3080966d-42b2-4132-89de-22c86b5f6246/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/views/notfound.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocTrace2/data/sqlalchemy_base.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysvg</find>
+      <find>welcom</find>
+      <find>test</find>
+      <find>trace</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -158,10 +229,16 @@
         <option value="$PROJECT_DIR$/DocTrace2/templates/main_template.pt" />
         <option value="$PROJECT_DIR$/DocTrace2/views/__init__.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3080966d-42b2-4132-89de-22c86b5f6246/console.sql" />
-        <option value="$PROJECT_DIR$/DocTrace2/views/default.py" />
-        <option value="$PROJECT_DIR$/DocTrace2/__init__.py" />
+        <option value="$PROJECT_DIR$/DocTrace2/templates/trace_template.pt" />
         <option value="$PROJECT_DIR$/DocTrace2/templates/main_layout.pt" />
+        <option value="$PROJECT_DIR$/DocTrace2/templates/uuumain_layout.pt" />
+        <option value="$PROJECT_DIR$/DocTrace2/templates/uuu_template.pt" />
+        <option value="$PROJECT_DIR$/DocTrace2/templates/orig_template.pt" />
+        <option value="$PROJECT_DIR$/DocTrace2/templates/document_template.pt" />
+        <option value="$PROJECT_DIR$/DocTrace2/__init__.py" />
+        <option value="$PROJECT_DIR$/DocTrace2/views/default.py" />
         <option value="$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt" />
+        <option value="$PROJECT_DIR$/DocTrace2/templates/document_layout.pt" />
       </list>
     </option>
   </component>
@@ -189,30 +266,6 @@
               <item name="DocTrace2" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
               <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocTrace2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
-              <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
-              <item name="BLL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocTrace2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
-              <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
-              <item name="DAL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocTrace2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
-              <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocTrace2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
-              <item name="DocTrace2" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocTrace2" type="b2602c69:ProjectViewProjectNode" />
@@ -311,24 +364,23 @@
       <updated>1562708968072</updated>
       <workItem from="1562708969453" duration="1800000" />
       <workItem from="1562711036058" duration="691000" />
-      <workItem from="1562711768136" duration="1573000" />
+      <workItem from="1562711768136" duration="13883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4064000" />
+    <option name="totallyTimeSpent" value="16374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25540167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14847645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25757575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,14 +395,14 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.12132964" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.20720221" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DocTrace2$DocTrace2.coverage" NAME="DocTrace2 Coverage Results" MODIFIED="1562714881698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DocTrace2$DocTrace2.coverage" NAME="DocTrace2 Coverage Results" MODIFIED="1562798657789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DocTrace2/BLL/Documents.py">
@@ -424,9 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/mytemplate.pt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/DocTrace2/data/db_factory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -444,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/routes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DocTrace2/views/notfound.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -461,13 +503,6 @@
     <entry file="file://$PROJECT_DIR$/DocTrace2/data/sqlalchemy_base.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/views/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3080966d-42b2-4132-89de-22c86b5f6246/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -475,48 +510,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/views/default.py">
+    <entry file="file://$PROJECT_DIR$/DocTrace2/views/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/__init__.py">
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_layout.pt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="311">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_template.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_template.pt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_template.pt">
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/uuu_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/uuu_template.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/orig_layout.pt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/main_layout.pt">
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/orig_template.pt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/document_template.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/views/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DocTrace2/templates/trace_layout.pt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="648" column="12" lean-forward="true" selection-start-line="648" selection-start-column="12" selection-end-line="648" selection-end-column="12" />
+        <state relative-caret-position="34">
+          <caret line="197" column="26" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocTrace2/templates/document_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="118" column="33" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/3080966d-42b2-4132-89de-22c86b5f6246.SCHEMA:main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>3080966d-42b2-4132-89de-22c86b5f6246.SCHEMA:main</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Section_History</node>
+            <node x="0.0" y="385.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Documents</node>
+            <node x="230.0" y="385.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.table_name</node>
+            <node x="0.0" y="506.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.sqlite_sequence</node>
+            <node x="0.0" y="193.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.sqlite_master</node>
+            <node x="411.0" y="193.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Sections</node>
+            <node x="179.0" y="193.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Document_Parent</node>
+            <node x="230.0" y="0.0">3080966d-42b2-4132-89de-22c86b5f6246.TABLE:main.Groups</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="284.5" y="259.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

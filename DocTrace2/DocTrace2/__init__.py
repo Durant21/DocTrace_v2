@@ -10,6 +10,7 @@ def main(global_config, **settings):
         config.include('.routes')
         config.add_route('main','/main')
         config.add_route('trace','/trace')
+        config.add_route('document','/document')
         config.scan()
 
         # with Configurator(settings=settings) as config:

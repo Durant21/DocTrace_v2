@@ -1,18 +1,94 @@
-<html>
+<!--?<!DOCTYPE html metal:define-macro="layout">-->
+<!--?<html lang="{{request.locale_name}}">-->
+<!--?  <head>-->
 
+
+<!--?  </head>-->
+
+<!--?  <body>body </body>-->
+<!--?</html>-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trace Diagram</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: 100%;
+        padding: 15px;
+      }
+      .row.content {height:100%;}
+    }
+  </style>
+</head>
 <body>
-<svg id="mysvg" width="700" height="100" style="background-color: lightgrey">
-    <!-- <rect id="rect1" x="10" y="10" width="50" height="80"
-          style="stroke:#000000; fill:none;"/> -->
-          <g id="myg" class="links"></g>
-          <!-- <line x1= "10" y1= "10"
-          x2="490" y2="490"
-          style="stroke:rgb(255,90,50); stroke-width:5" -->
-    />
-</svg>
-<br>
-<br>
-<br>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<!--?        <span class="icon-bar"></span>-->
+<!--?        <span class="icon-bar"></span>-->
+<!--?        <span class="icon-bar"></span>-->
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+<!--?        <li><a href="#">About</a></li>-->
+<!--?        <li><a href="#">Projects</a></li>-->
+<!--?        <li><a href="#">Contact</a></li>-->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+<!--?      <p><a href="#">Link</a></p>-->
+<!--?      <p><a href="#">Link</a></p>-->
+<!--?      <p><a href="#">Link</a></p>-->
+    </div>
+    <div class="col-sm-8 text-left">
+      <h1>Trace diagram</h1>
+
 <!-- <br>
 <input id="button1" type="button" value="Change Dimensions"
             onclick="changeDimensions()"/>
@@ -27,8 +103,33 @@
 
 
 <p id="demo"></p>
+<div style="width:30%">
 
-<svg id="cont" height="400" width="700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    var traces = [ <br>
+        ['','doc1','doc7'],<br>
+        ['','doc2','doc11'],<br>
+        ['','doc3','doc11'],<br>
+        ['','doc4','doc11'],<br>
+        ['','doc5','doc11'],<br>
+        ['','doc6','doc7'],<br>
+        ['','doc11','doc7'],<br>
+        ['','doc7','doc8'],<br>
+        ['','doc7','doc9'],<br>
+        ['','doc7','doc10'],<br>
+        ['','doc7','doc12a'],<br>
+        ['','doc3','doc6'],<br>
+        ['','doc9','doc14'],<br>
+        ['','doc7','doc12b'],<br>
+        ['','doc1a','doc1'],<br>
+        ['','doc1b','doc1a'],<br>
+        ['','docA','doc1a'],<br>
+        ['','docB','doc1b']<br>
+      ];<br>
+<br>
+
+</div>
+
+<svg id="secondsvg" height="400" width="1400" style="background-color: lightgrey" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <!-- <line x1= "10" y1= "10"
           x2="490" y2="490,"
           style="stroke:rgb(255,90,50); stroke-width:5" -->
@@ -36,12 +137,41 @@
 </svg>
 
 
-<svg id="secondsvg" height="400" width="700" style="background-color: lightgrey" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <!-- <line x1= "10" y1= "10"
+<svg id="cont" height="10" width="700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   rrrr     <!-- <line x1= "10" y1= "10"
           x2="490" y2="490,"
           style="stroke:rgb(255,90,50); stroke-width:5" -->
     />
 </svg>
+
+     <svg id="mysvg" width="700" height="100" style="background-color: lightgrey">
+    <!-- <rect id="rect1" x="10" y="10" width="50" height="80"
+          style="stroke:#000000; fill:none;"/> -->
+          <g id="myg" class="links"></g>
+          <!-- <line x1= "10" y1= "10"
+          x2="490" y2="490"
+          style="stroke:rgb(255,90,50); stroke-width:5" -->
+    />
+        </svg>
+
+        <hr>
+    </div>
+    <div class="col-sm-2 sidenav">
+<!--?      <div class="well">-->
+<!--?        <p>ADS</p>-->
+<!--?      </div>-->
+<!--?      <div class="well">-->
+<!--?        <p>ADS</p>-->
+<!--?      </div>-->
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
 
 
 <script>
@@ -51,6 +181,8 @@
 //document.getElementById('cont').setAttribute("height", "1000px");
 svgHeight = document.getElementById('secondsvg').getAttribute("height");
 svgWidth = document.getElementById('secondsvg').getAttribute("width");
+document.getElementById('mysvg').style.visibility = 'hidden';
+document.getElementById('cont').style.visibility = 'hidden';
 
 //alert( svgWidth);
       var pCenterX = svgWidth/2;
@@ -655,5 +787,4 @@ function getNode(n, v) {
 }
 
 </script>
-</body>
 </html>
