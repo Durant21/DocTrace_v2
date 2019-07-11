@@ -19,3 +19,7 @@ def trace_view1(request):
 @view_config(route_name='document', renderer='../templates/document_template.pt')
 def trace_view2(request):
     return {'project': 'DocTrace2'}
+
+# @view_config(route_name='documents_api', renderer='../templates/document_template.pt')
+# def trace_view3(request):
+#     return {'project': 'DocTrace2'}

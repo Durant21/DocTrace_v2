@@ -1,6 +1,7 @@
 import sqlite3
 import os
 import DocTrace2
+from DocTrace2.Domain.Document import Document
 
 class documents:
 
@@ -22,11 +23,22 @@ class documents:
         c.execute('SELECT * FROM Documents')
 
         all_rows = c.fetchall()
+        all_rows2 = c.description
         print('1):', all_rows)
+
+        lst_documents = []
+
+        for r in all_rows:
+            print(r[1])
+            aDoc = Document()
+            aDoc.doc_id = r[0]
+            aDoc.doc_name = r[1]
+
+            lst_documents.append(aDoc)
 
         conn.close()
 
-        return all_rows
+        return lst_documents
 
 
     @classmethod
