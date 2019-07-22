@@ -14,7 +14,11 @@ requires = [
     'pyramid_chameleon',
     'pyramid_debugtoolbar',
     'waitress',
+    'requests',
+    'python-dateutil',
     'sqlalchemy',
+    'pytest',
+    'responses'
 ]
 
 tests_require = [

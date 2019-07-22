@@ -1,13 +1,15 @@
-class Document:
-    def __init__(self):
-        self.doc_id = 0
-        self.doc_name = ''
+import uuid
+import sqlalchemy
+import datetime
 
-    def add_name(self, name):
-        self.doc_name = name
+from DocTrace2.data.sqlalchemy_base import SqlAlchemyBase
 
-    def add_id(self, id):
-        self.doc_id = id
+class Document(SqlAlchemyBase):
+    __tablename__ = 'Document'
+
+    doc_id = sqlalchemy.Column(sqlalchemy.String,primary_key=True,
+                               default=lambda: str(uuid.uuid4()))
+    doc_name = sqlalchemy.Column(sqlalchemy.String)
 
     def to_dict(self):
         return {

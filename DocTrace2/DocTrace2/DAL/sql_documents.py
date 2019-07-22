@@ -40,7 +40,6 @@ class documents:
 
         return lst_documents
 
-
     @classmethod
     def create_document(cls,task):
         working_folder = os.path.dirname(DocTrace2.__file__)
@@ -50,10 +49,21 @@ class documents:
         conn = sqlite3.connect(file)
 
 
-        sql = ''' INSERT INTO Documents(doc_name)
-                   VALUES(?) '''
+        sql = '''INSERT INTO Documents(doc_name) VALUES(?);'''
         cur = conn.cursor()
         cur.execute(sql, task)
         return cur.lastrowid
 
+    @classmethod
+    def update_document(cls,task):
+        working_folder = os.path.dirname(DocTrace2.__file__)
+        file = os.path.join(working_folder,'db','myDocuments.sqlite')
+        conn_string = 'sqlite:///' + file
 
+        conn = sqlite3.connect(file)
+
+
+        sql = '''UPDATE Documents SET doc_name = (?) WHERE doc_id = (?);'''
+        cur = conn.cursor()
+        cur.execute(sql, task)
+        return cur.lastrowid
