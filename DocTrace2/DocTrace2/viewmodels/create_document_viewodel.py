@@ -1,4 +1,4 @@
-from DocTrace2.Domain.Document import Document
+from DocTrace2.Domain.Documents import Document
 
 from DocTrace2.viewmodels.base_viewmodel import ViewModelBase
 

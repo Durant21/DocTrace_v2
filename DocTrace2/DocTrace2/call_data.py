@@ -1,6 +1,6 @@
 # from DocTrace2.BLL.Groups import BLL_Groups
 from DocTrace2.BLL.Documents import BLL_Documents
-from DocTrace2.Domain.Document import Document
+from DocTrace2.Domain.Documents import Document
 from DocTrace2.data.db_factory import DbSessionFactory
 
 # def test_call_groups():
@@ -24,7 +24,7 @@ from DocTrace2.data.db_factory import DbSessionFactory
 #     print(r)
 #
 def test_update_doc(doc_name):
-    doc_data = {"doc_id": "1001","doc_name": "changed name"}
+    doc_data = {"doc_id": "1001","doc_name": "changed name2"}
     r = BLL_Documents.update_document(doc_id='1001',doc_data=doc_data)
     print(r)
 

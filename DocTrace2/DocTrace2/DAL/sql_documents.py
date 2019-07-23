@@ -1,7 +1,7 @@
 import sqlite3
 import os
 import DocTrace2
-from DocTrace2.Domain.Document import Document
+from DocTrace2.Domain.Documents import Document
 
 class documents:
 

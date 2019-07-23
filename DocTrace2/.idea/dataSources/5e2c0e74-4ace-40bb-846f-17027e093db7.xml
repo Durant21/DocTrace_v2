@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="myDocuments">
+<dataSource name="myDocuments_sql">
   <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.15">
     <root id="1">
       <ServerVersion>3.25.1</ServerVersion>
@@ -11,146 +11,160 @@
     <collation id="3" parent="1" name="BINARY"/>
     <collation id="4" parent="1" name="NOCASE"/>
     <collation id="5" parent="1" name="RTRIM"/>
-    <table id="6" parent="2" name="Document_Parent"/>
-    <table id="7" parent="2" name="Documents"/>
-    <table id="8" parent="2" name="Groups"/>
-    <table id="9" parent="2" name="Section_History"/>
-    <table id="10" parent="2" name="Sections"/>
-    <table id="11" parent="2" name="sqlite_master">
+    <table id="6" parent="2" name="Document"/>
+    <table id="7" parent="2" name="Document_Parent"/>
+    <table id="8" parent="2" name="Documents"/>
+    <table id="9" parent="2" name="Groups"/>
+    <table id="10" parent="2" name="Section_History"/>
+    <table id="11" parent="2" name="Sections"/>
+    <table id="12" parent="2" name="sqlite_master">
       <System>1</System>
     </table>
-    <table id="12" parent="2" name="sqlite_sequence">
+    <table id="13" parent="2" name="sqlite_sequence">
       <System>1</System>
     </table>
-    <table id="13" parent="2" name="table_name"/>
-    <column id="14" parent="6" name="doc_parent_id">
+    <table id="14" parent="2" name="table_name"/>
+    <column id="15" parent="6" name="doc_id">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
-      <SequenceIdentity>1</SequenceIdentity>
+      <NotNull>1</NotNull>
     </column>
-    <column id="15" parent="6" name="doc_id">
+    <column id="16" parent="6" name="doc_name">
       <Position>2</Position>
-      <DataType>int|0s</DataType>
-    </column>
-    <column id="16" parent="6" name="parent">
-      <Position>3</Position>
-      <DataType>int|0s</DataType>
+      <DataType>VARCHAR|0s</DataType>
     </column>
     <key id="17" parent="6">
-      <ColNames>doc_parent_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="18" parent="7" name="doc_id">
-      <Position>1</Position>
-      <DataType>INTEGER|0s</DataType>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="19" parent="7" name="doc_name">
-      <Position>2</Position>
-      <DataType>varchar(25)|0s</DataType>
-    </column>
-    <key id="20" parent="7">
       <ColNames>doc_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="21" parent="8" name="Group_id">
+    <column id="18" parent="7" name="doc_parent_id">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="22" parent="8" name="Group_name">
+    <column id="19" parent="7" name="doc_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="20" parent="7" name="parent">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <key id="21" parent="7">
+      <ColNames>doc_parent_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="22" parent="8" name="doc_id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="23" parent="8" name="doc_name">
+      <Position>2</Position>
+      <DataType>varchar(25)|0s</DataType>
+    </column>
+    <key id="24" parent="8">
+      <ColNames>doc_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="25" parent="9" name="Group_id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="26" parent="9" name="Group_name">
       <Position>2</Position>
       <DataType>Varchar|0s</DataType>
     </column>
-    <column id="23" parent="8" name="SortOrder">
+    <column id="27" parent="9" name="SortOrder">
       <Position>3</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="24" parent="8" name="doc_id">
+    <column id="28" parent="9" name="doc_id">
       <Position>4</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="25" parent="8" name="section_id">
+    <column id="29" parent="9" name="section_id">
       <Position>5</Position>
       <DataType>int|0s</DataType>
     </column>
-    <key id="26" parent="8">
+    <key id="30" parent="9">
       <ColNames>Group_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="27" parent="9" name="sec_hist_id">
+    <column id="31" parent="10" name="sec_hist_id">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="28" parent="9" name="doc_id">
+    <column id="32" parent="10" name="doc_id">
       <Position>2</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="29" parent="9" name="doc_text">
+    <column id="33" parent="10" name="doc_text">
       <Position>3</Position>
       <DataType>varchar(150)|0s</DataType>
     </column>
-    <column id="30" parent="9" name="date_in">
+    <column id="34" parent="10" name="date_in">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="31" parent="9" name="date_out">
+    <column id="35" parent="10" name="date_out">
       <Position>5</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <key id="32" parent="9">
+    <key id="36" parent="10">
       <ColNames>sec_hist_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="33" parent="10" name="section_id">
+    <column id="37" parent="11" name="section_id">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="34" parent="10" name="doc_text">
+    <column id="38" parent="11" name="doc_text">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <column id="35" parent="10" name="date_in">
+    <column id="39" parent="11" name="date_in">
       <Position>3</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <key id="36" parent="10">
+    <key id="40" parent="11">
       <ColNames>section_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="37" parent="11" name="type">
+    <column id="41" parent="12" name="type">
       <Position>1</Position>
-      <DataType>text|0s</DataType>
-    </column>
-    <column id="38" parent="11" name="name">
-      <Position>2</Position>
-      <DataType>text|0s</DataType>
-    </column>
-    <column id="39" parent="11" name="tbl_name">
-      <Position>3</Position>
-      <DataType>text|0s</DataType>
-    </column>
-    <column id="40" parent="11" name="rootpage">
-      <Position>4</Position>
-      <DataType>int|0s</DataType>
-    </column>
-    <column id="41" parent="11" name="sql">
-      <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>
     <column id="42" parent="12" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="43" parent="12" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="44" parent="12" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="45" parent="12" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="46" parent="13" name="name">
       <Position>1</Position>
     </column>
-    <column id="43" parent="12" name="seq">
+    <column id="47" parent="13" name="seq">
       <Position>2</Position>
     </column>
-    <column id="44" parent="13" name="column_1">
+    <column id="48" parent="14" name="column_1">
       <Position>1</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="45" parent="13" name="column_2">
+    <column id="49" parent="14" name="column_2">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
     </column>

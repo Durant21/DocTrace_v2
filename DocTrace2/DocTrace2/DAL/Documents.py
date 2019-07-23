@@ -6,7 +6,7 @@ import random
 from dateutil.parser import parse
 
 from DocTrace2.data.db_factory import DbSessionFactory
-from DocTrace2.Domain.Document import Document
+from DocTrace2.Domain.Documents import Document
 
 class DAL_Documents:
     __document_data = {}
